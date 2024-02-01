@@ -2669,7 +2669,7 @@ local posZ = 0
         KillPercent = Value
     end)
 
-    SliderHealt:SetValue(40)
+    SliderHealt:SetValue(26)
     
 	spawn(function()
         while task.wait(.1) do
