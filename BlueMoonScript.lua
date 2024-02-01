@@ -4,8 +4,8 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "ʙʟᴜᴇ ᴍᴏᴏɴ sᴄʀɪᴘᴛ",
-    SubTitle = "𝗕𝘆 𝗕𝗹𝘂𝗲𝗠𝗼𝗼𝗻",
-    TabWidth = 160,
+    SubTitle = "🟢",
+    TabWidth = 140,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
@@ -2652,11 +2652,11 @@ local posZ = 0
 
 
 
-    KillPercent = 40
+    KillPercent = 25
     local SliderHealt = Tabs.Main:AddSlider("SliderHealt", {
         Title = "Health %",
         Description = "Health for mastery",
-        Default = 40,
+        Default = 25,
         Min = 0,
         Max = 100,
         Rounding = 1,
