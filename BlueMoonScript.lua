@@ -2652,11 +2652,11 @@ local posZ = 0
 
 
 
-    KillPercent = 25
+    KillPercent = 40
     local SliderHealt = Tabs.Main:AddSlider("SliderHealt", {
         Title = "Health %",
         Description = "Health for mastery",
-        Default = 25,
+        Default = 40,
         Min = 0,
         Max = 100,
         Rounding = 1,
